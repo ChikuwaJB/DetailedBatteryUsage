@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F6E8FAF1A02A6C30066FD09 /* DetailedBatteryUsage.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6F6E8FAE1A02A6C30066FD09 /* DetailedBatteryUsage.h */; };
+		6F6E8FB11A02A6C30066FD09 /* DetailedBatteryUsage.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F6E8FB01A02A6C30066FD09 /* DetailedBatteryUsage.m */; };
+		6F6E8FB71A02A6C30066FD09 /* DetailedBatteryUsage.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F6E8FAB1A02A6C30066FD09 /* DetailedBatteryUsage.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6F6E8FB81A02A6C30066FD09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F6E8FA31A02A6C30066FD09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F6E8FAA1A02A6C30066FD09;
+			remoteInfo = DetailedBatteryUsage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6F6E8FA91A02A6C30066FD09 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				6F6E8FAF1A02A6C30066FD09 /* DetailedBatteryUsage.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6F6E8FAB1A02A6C30066FD09 /* DetailedBatteryUsage.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = DetailedBatteryUsage.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F6E8FAE1A02A6C30066FD09 /* DetailedBatteryUsage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailedBatteryUsage.h; sourceTree = "<group>"; };
+		6F6E8FB01A02A6C30066FD09 /* DetailedBatteryUsage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailedBatteryUsage.m; sourceTree = "<group>"; };
+		6F6E8FB61A02A6C30066FD09 /* DetailedBatteryUsageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DetailedBatteryUsageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F6E8FBC1A02A6C30066FD09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F6E8FA81A02A6C30066FD09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F6E8FB31A02A6C30066FD09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F6E8FB71A02A6C30066FD09 /* DetailedBatteryUsage.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F6E8FA21A02A6C30066FD09 = {
+			isa = PBXGroup;
+			children = (
+				6F6E8FAD1A02A6C30066FD09 /* DetailedBatteryUsage */,
+				6F6E8FBA1A02A6C30066FD09 /* DetailedBatteryUsageTests */,
+				6F6E8FAC1A02A6C30066FD09 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6F6E8FAC1A02A6C30066FD09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F6E8FAB1A02A6C30066FD09 /* DetailedBatteryUsage.dylib */,
+				6F6E8FB61A02A6C30066FD09 /* DetailedBatteryUsageTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F6E8FAD1A02A6C30066FD09 /* DetailedBatteryUsage */ = {
+			isa = PBXGroup;
+			children = (
+				6F6E8FAE1A02A6C30066FD09 /* DetailedBatteryUsage.h */,
+				6F6E8FB01A02A6C30066FD09 /* DetailedBatteryUsage.m */,
+			);
+			path = DetailedBatteryUsage;
+			sourceTree = "<group>";
+		};
+		6F6E8FBA1A02A6C30066FD09 /* DetailedBatteryUsageTests */ = {
+			isa = PBXGroup;
+			children = (
+				6F6E8FBB1A02A6C30066FD09 /* Supporting Files */,
+			);
+			path = DetailedBatteryUsageTests;
+			sourceTree = "<group>";
+		};
+		6F6E8FBB1A02A6C30066FD09 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F6E8FBC1A02A6C30066FD09 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F6E8FAA1A02A6C30066FD09 /* DetailedBatteryUsage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F6E8FBF1A02A6C30066FD09 /* Build configuration list for PBXNativeTarget "DetailedBatteryUsage" */;
+			buildPhases = (
+				6F6E8FA71A02A6C30066FD09 /* Sources */,
+				6F6E8FA81A02A6C30066FD09 /* Frameworks */,
+				6F6E8FA91A02A6C30066FD09 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DetailedBatteryUsage;
+			productName = DetailedBatteryUsage;
+			productReference = 6F6E8FAB1A02A6C30066FD09 /* DetailedBatteryUsage.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		6F6E8FB51A02A6C30066FD09 /* DetailedBatteryUsageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F6E8FC21A02A6C30066FD09 /* Build configuration list for PBXNativeTarget "DetailedBatteryUsageTests" */;
+			buildPhases = (
+				6F6E8FB21A02A6C30066FD09 /* Sources */,
+				6F6E8FB31A02A6C30066FD09 /* Frameworks */,
+				6F6E8FB41A02A6C30066FD09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F6E8FB91A02A6C30066FD09 /* PBXTargetDependency */,
+			);
+			name = DetailedBatteryUsageTests;
+			productName = DetailedBatteryUsageTests;
+			productReference = 6F6E8FB61A02A6C30066FD09 /* DetailedBatteryUsageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F6E8FA31A02A6C30066FD09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Hamza Sood";
+				TargetAttributes = {
+					6F6E8FAA1A02A6C30066FD09 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					6F6E8FB51A02A6C30066FD09 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = 6F6E8FA61A02A6C30066FD09 /* Build configuration list for PBXProject "DetailedBatteryUsage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6F6E8FA21A02A6C30066FD09;
+			productRefGroup = 6F6E8FAC1A02A6C30066FD09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F6E8FAA1A02A6C30066FD09 /* DetailedBatteryUsage */,
+				6F6E8FB51A02A6C30066FD09 /* DetailedBatteryUsageTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F6E8FB41A02A6C30066FD09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F6E8FA71A02A6C30066FD09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F6E8FB11A02A6C30066FD09 /* DetailedBatteryUsage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F6E8FB21A02A6C30066FD09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6F6E8FB91A02A6C30066FD09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F6E8FAA1A02A6C30066FD09 /* DetailedBatteryUsage */;
+			targetProxy = 6F6E8FB81A02A6C30066FD09 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6F6E8FBD1A02A6C30066FD09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6F6E8FBE1A02A6C30066FD09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F6E8FC01A02A6C30066FD09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		6F6E8FC11A02A6C30066FD09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		6F6E8FC31A02A6C30066FD09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DetailedBatteryUsageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6F6E8FC41A02A6C30066FD09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DetailedBatteryUsageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F6E8FA61A02A6C30066FD09 /* Build configuration list for PBXProject "DetailedBatteryUsage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F6E8FBD1A02A6C30066FD09 /* Debug */,
+				6F6E8FBE1A02A6C30066FD09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F6E8FBF1A02A6C30066FD09 /* Build configuration list for PBXNativeTarget "DetailedBatteryUsage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F6E8FC01A02A6C30066FD09 /* Debug */,
+				6F6E8FC11A02A6C30066FD09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6F6E8FC21A02A6C30066FD09 /* Build configuration list for PBXNativeTarget "DetailedBatteryUsageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F6E8FC31A02A6C30066FD09 /* Debug */,
+				6F6E8FC41A02A6C30066FD09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F6E8FA31A02A6C30066FD09 /* Project object */;
+}

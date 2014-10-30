@@ -36,10 +36,12 @@ void BatteryUsageUIBundleLoadedNotificationFired(CFNotificationCenterRef center,
 }
 
 __attribute__((constructor)) static void BatteryUIControllerHooksInit() {
-    CFNotificationCenterAddObserver(CFNotificationCenterGetLocalCenter(),
-                                    bundleLoadedObserver,
-                                    BatteryUsageUIBundleLoadedNotificationFired,
-                                    (CFStringRef)NSBundleDidLoadNotification,
-                                    [NSBundle bundleWithPath:@"/System/Library/PreferenceBundles/BatteryUsageUI.bundle"],
-                                    CFNotificationSuspensionBehaviorCoalesce);
+    @autoreleasepool {
+        CFNotificationCenterAddObserver(CFNotificationCenterGetLocalCenter(),
+                                        bundleLoadedObserver,
+                                        BatteryUsageUIBundleLoadedNotificationFired,
+                                        (CFStringRef)NSBundleDidLoadNotification,
+                                        [NSBundle bundleWithPath:@"/System/Library/PreferenceBundles/BatteryUsageUI.bundle"],
+                                        CFNotificationSuspensionBehaviorCoalesce);
+    }
 }
